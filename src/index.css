@@ -105,3 +105,17 @@ body{
   font-weight: bold;
   text-align: center;
 }
+
+@media (max-width: 1024px) {
+  .query-card, .result-card{
+    width: 60%; 
+  }}
+  @media (max-width: 768px) {
+    .query-card, .result-card{
+      width: 80%; 
+    }}
+
+    @media (max-width: 480px) {
+      .query-card, .result-card{
+        width: 95%; 
+      }}
