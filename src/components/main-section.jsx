@@ -42,6 +42,7 @@ const MainSection = () => {
   };
 
   const handleRestart = () => {
+    setQuestions([])
     getQuestions();
     setCurrentQuestionIndex(0);
     setScore(0);
